@@ -20,7 +20,9 @@ elif age >= 25:
     message = message + 'Millennials'
 elif age >= 9:
     message = message + 'Generation Z'
-elif age >= 0:
+elif age > 0:
     message = message + 'Generation Alpha'
+else:
+    message = "Invalid input"
 print(message)
 
